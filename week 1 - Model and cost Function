@@ -1,0 +1,10 @@
+Model representation
+m = Number of reaining examples
+x's = "input" variable /features
+y's = "output" varible / "target" variable
+
+(x,y) - one training example
+(x(i), y(i)) - ith training example
+
+Trainging Set -> learning algorithm -> hypothesis (from size of house to Estimated price)
+h =h(x) =0 +1 x
