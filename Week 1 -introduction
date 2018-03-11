@@ -1,0 +1,62 @@
+Example
+  -database mining
+  -application (NLP , handwriting recognition)
+  -self-customizing programs
+    Amazon ,Netflix
+  - understanding human learning
+task = T
+performance = P
+Experience =E
+
+Eg.Suppose your email program watches which emails you do or do not mark as spam, 
+and based on that learns how to better filter spam. What is the task T in this setting?
+
+T = Classify emails as spam or not spam
+P = the number of emails correctly classified as spam
+E = Watching you label emails as spam or not spam
+
+Category:
+Supervised Learning
+Unsupervised learning
+Reinforcement Learning 
+Recommender system
+
+Supervised Learning
+-Classification
+-Regression
+
+"right answers" given
+product more right answer
+Example . Housing price prediction
+
+1.Classification 
+like, zero game  (0/1)
+0 - No
+1-Yes
+eg. Given a patient with a tumor, we have to predict whether the tumor is malignant or benign.
+
+2.Regression
+continuous number of case
+depand on different feature
+use for predection
+eg. Given a picture of a person, we have to predict their age on the basis of the given picture
+
+Unsupervised Learning 
+clustering different item by given data
+applycation 
+  -Organize computing cluster
+  -Social network analysis
+  -Market segmentation
+  cluster different type of coustomers
+  -Astronmical data analysis
+Non-clustering
+Cocktail party problem
+two speaker with 2 microphone with different distance
+count down 10 with the same time
+algorithm to seperate 2 source of audio
+to keep the first source of sound
+algorithm:
+[W,s,v] = svd((repmat(sum(x.*x,1),size(x,1),1).*x)*x');
+
+With unsupervised learning there is no feedback based on the prediction results.
+
